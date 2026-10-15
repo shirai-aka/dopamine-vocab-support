@@ -20,8 +20,9 @@ done
 
 grep -Fq "$expected_name" site-identity.json
 grep -Fq "$expected_bundle" site-identity.json
-grep -Fq '外部SDKも利用していません' privacy-policy/index.html
-grep -Fq '広告を表示せず' privacy-policy/index.html
+grep -Fq 'Google AdMob' privacy-policy/index.html
+grep -Fq 'バナー広告' privacy-policy/index.html
+grep -Fq '非パーソナライズ広告' privacy-policy/index.html
 grep -Fq 'App Tracking Transparency' privacy-policy/index.html
 grep -Fq 'ローカル通知' privacy-policy/index.html
 
