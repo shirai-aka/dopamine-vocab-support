@@ -1,0 +1,13 @@
+name: Validate Dopamine Vocab support site
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify app identity and privacy content
+        run: sh scripts/validate_site.sh
