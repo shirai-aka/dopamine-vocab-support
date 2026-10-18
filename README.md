@@ -1,6 +1,6 @@
 # Dopamine Vocab support site
 
-このリポジトリは「ドーパミン英単語」専用のサポートサイトです。
+このリポジトリは「ドーパミン学習」専用のサポートサイトです。
 
 - Bundle ID: `com.shirai.dopaminevocab`
 - 公開先: `https://shirai-aka.github.io/dopamine-vocab-support/`
