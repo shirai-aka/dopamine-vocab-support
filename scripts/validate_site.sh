@@ -5,7 +5,7 @@ expected_name='ドーパミン学習'
 expected_bundle='com.shirai.dopaminevocab'
 forbidden_names='論理の塔 ドーパミン電卓 LOGIC ドーパミン英単語'
 
-files='index.html support/index.html privacy-policy/index.html'
+files='index.html support/index.html privacy-policy/index.html index.en.html support/index.en.html privacy-policy/index.en.html'
 
 for file in $files; do
   test -f "$file"
@@ -26,4 +26,4 @@ grep -Fq '非パーソナライズ広告' privacy-policy/index.html
 grep -Fq 'App Tracking Transparency' privacy-policy/index.html
 grep -Fq 'ローカル通知' privacy-policy/index.html
 
-echo 'SITE_VALIDATION_PASS / DOPAMINE LEARNING / 3 PAGES'
+echo 'SITE_VALIDATION_PASS / DOPAMINE LEARNING / 6 PAGES'
